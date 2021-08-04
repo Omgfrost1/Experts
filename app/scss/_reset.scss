@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-ul[class],ol[class] {
+ul,ol[class] {
   padding: 0;
 }
 
@@ -25,7 +25,7 @@ ul[class] {
 }
 
 img {
-  max-width: 100%;
+  // max-width: 100%;
   display: block;
 }
 

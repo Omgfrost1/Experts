@@ -1,11 +1,18 @@
 $accent: #63a60e;
 $default: #121212;
 $title: #fff;
+$header-top: #31352B;
+$red: #CF3E3B;
 
 
 %lato-400{
   font-family: 'Lato-Regular', sans-serif;
   font-weight: 400;
+}
+
+%lato-600{
+  font-family: 'Lato-SemiBold', sans-serif;
+  font-weight: 600;
 }
 
 %lato-700{

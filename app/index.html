@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>FreshOK</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-delivery" href="#">АДРЕС И ВРЕМЯ ДОСТАВКИ</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link menu__list-hotline" href="#">ГОРЯЧАЯ ЛИНИЯ 24/7</a>
+            </li>
+          </ul>
+          <ul class="menu__list">
+            <li class="menu__list-item menu__list-info">
+              <a class="menu__list-link" href="#">ДОСТАВКА</a>
+            </li>
+            <li class="menu__list-item menu__list-info">
+              <a class="menu__list-link" href="#">О НАС</a>
+            </li>
+            <li class="menu__list-item menu__list-info">
+              <a class="menu__list-link" href="#">НОВОСТИ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header__inner">
+      <div class="container">
+        <div class="header-items">
+          <a class="header__logo-link" href="#">
+            <img class="logo header__logo" width="55" src="images/header-logo.svg" alt="лого">
+          </a>
+          <div class="header-items__title">
+            <span class="header-items__title-item">ФРЕШОК</span>
+            <span class="header-items__subtitle-item">ОНЛАЙН-МАРКЕТ</span>
+          </div>
+          <button type="menu" class="header-items__catalog">
+            <span class="header-items__catalog-title">Каталог продуктов</span>
+          </button>
+          <form class="header-items__form" action="#">
+            <input class="header-items__form-input" type="text" placeholder="Найти в магазине ..." required>
+            <button class="header-items__form-btn" type="submit">ПОИСК</button>
+          </form>
+          <ul class="header-nav">
+            <li class="header-nav__list">
+              <a class="header-nav__link" href="">
+                <img class="header-nav__link-img" src="images/user-icon.svg" width="33" alt="иконка пользователя">
+              </a>
+            </li>
+            <li class="header-nav__list">
+              <a class="header-nav__link" href="">
+                <img class="header-nav__link-img" src="images/heart-icon.svg" width="28" alt="иконка сердца">
+                <span class="header-nav__num">12</span>
+              </a>
+            </li>
+            <li class="header-nav__list">
+              <a class="header-nav__link" href="">
+                <img class="header-nav__link-img" src="images/cart-icon.svg" width="25" alt="иконка корзины">
+                <span class="header-nav__num">12</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
 
   <script src="js/main.min.js"></script>
 </body>
+
 </html>

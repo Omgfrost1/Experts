@@ -9,6 +9,16 @@
 } 
 
 @font-face {
+  font-family: 'Lato-SemiBold', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: local('Lato-SemiBold'),
+      url('../fonts/Lato-SemiBold.woff2') format('woff2'),
+      url('../fonts/Lato-SemiBold.woff') format('woff');
+  font-display: swap;  
+} 
+
+@font-face {
   font-family: 'Lato-Bold', sans-serif;
   font-weight: 700;
   font-style: normal;
