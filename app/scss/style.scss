@@ -146,12 +146,14 @@
 }
 .header-nav {
   display: flex;
-  padding-right: 15px;
   &__list:not(:first-child) {
     margin-left: 30px;
   }
   &__link {
     position: relative;
+  }
+  &__cart{
+    margin-right: 17px;
   }
   &__link-img {
     height: 32px;
