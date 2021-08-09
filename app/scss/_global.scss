@@ -1,13 +1,23 @@
+html, body{
+  height: 100%;
+
+}
+
 body{
   font-size: 14px;
   line-height: 1.4;
   color: $default;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   @extend %lato-600;
+}
+.main{
+  flex-grow: 1;
 }
 
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
 }

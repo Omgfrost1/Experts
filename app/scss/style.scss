@@ -280,6 +280,7 @@
 .footer {
   padding: 30px 0 25px 0px;
   background-color: $header-top;
+  color: $title;
 }
 .footer__logo-link{
   margin-right: 15px;
@@ -302,6 +303,114 @@
   &__subtitle-item {
     font-size: 12px;
     line-height: 1.25;
+  }
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  @extend %lato-400;
+  &__item-form{
+    max-width: 310px;
+    margin-right: 110px;
+    line-height: 1;
+  }
+  &__form-input{
+    max-width: 182px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 7px 0px 0px 7px;
+  }
+  &__form-btn{
+    border: none;
+    background-color: $accent;
+    color: #fff;
+    padding: 13px 10px 13px 14px;
+    margin-left: -5px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-radius: 0px 7px 7px 0px;
+    @extend %lato-700;
+  }
+  &__nav{
+    max-width: 132px;
+    margin-right: 70px;
+  }
+  &__news{
+    max-width: 75px;
+    margin-right: 120px;
+  }
+  &__contact{
+    max-width: 205px;
+  }
+  &__text,
+  &__list-item,
+  &__phone,
+  &__adress{
+    margin-bottom: 18px;
+  }
+  &__phone,
+  &__adress{
+    display: block;
+  }
+  &__social-item{
+    padding-right: 12px;
+  }
+  &__social-list{
+    display: flex;
+    justify-content: center;
+  }
+  &__social-link--facebook{
+    position: relative;
+    padding-right: 4px;
+    &::before{
+      content: url('../images/facebook.svg');
+      top: 0;
+      left: 0;
+    }
+  }
+  &__social-link--youtube{
+     position: relative;
+    &::before{
+      content: url('../images/youtube.svg');
+      top: 0;
+      left: 0;
+    }
+  }
+   &__social-link--telegram{
+     position: relative;
+    &::before{
+      content: url('../images/telegram.svg');
+      top: 0;
+      left: 0;
+    }
+  }
+   &__social-link--instagram{
+     position: relative;
+     padding-right: 10px;
+    &::before{
+      content: url('../images/instagram.svg');
+      top: 0;
+      left: 0;
+    }
+  }
+}
+.footer-line{
+  border-bottom: 1px solid $title;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  &__accept{
+    display: flex;
+  }
+  &__accept-item + .footer-bottom__accept-item{
+    padding-left: 25px;
   }
 }
 
