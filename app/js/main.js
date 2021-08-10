@@ -1,16 +1,18 @@
 $(function () {
 
-  $('.slider-blog__inner').slick({
-    dots: true,
-    prevArrow: '<button type = "button" class= "slick-prev"><img src="images/arrow-left.svg" alt="left arrow"> </button>',
-    nextArrow: '<button type = "button" class= "slick-next"><img src="images/arrow-right.svg" alt="right arrow"> </button>',
+  $('.header-slider').slick({
+    dots: false,
+    prevArrow: '<button type = "button" class= "header-slider__slick-prev"><img src="images/arrow-left.svg" alt="left arrow"> </button>',
+    nextArrow: '<button type = "button" class= "header-slider__slick-next"><img src="images/arrow-right.svg" alt="right arrow"> </button>',
     responsive: [
       {
-        breakpoint: 1440,
+        breakpoint: 1450,
         settings: {
           arrows: false
         }
-      }
+      },
     ]
   });
+
+
 });

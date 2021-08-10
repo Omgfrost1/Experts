@@ -19,7 +19,8 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-mozjpeg": "^9.0.0",
     "jquery": "^3.6.0",
-    "sass": "^1.36.0"
+    "sass": "^1.36.0",
+    "slick-carousel": "^1.8.1"
   },
   "dependencies": {}
 }
