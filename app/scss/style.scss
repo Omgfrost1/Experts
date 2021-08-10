@@ -368,6 +368,12 @@
   &__contact {
     max-width: 205px;
   }
+  &__list-item,
+  &__social-item{
+    :hover{
+      border-bottom: 1px solid $accent;
+    }
+  }
   &__text,
   &__list-item,
   &__phone,
