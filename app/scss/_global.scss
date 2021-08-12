@@ -21,3 +21,35 @@ body{
   margin: 0 auto;
   padding: 0 10px;
 }
+.title{
+  text-align: center;
+  @extend %signika-600;
+  font-size: 32px;
+  line-height: 1.4;
+  color: $default;
+  margin-bottom: 30px;
+}
+.list__link{
+  @extend %lato-700;
+  font-size: 15px;
+  line-height: 1.4;
+  color: $silver;
+  cursor: pointer;
+  &:hover{
+    border-bottom: 3px solid #e0edcf;
+  }
+}
+.list__item + .list__item{
+  margin-left: 24px;
+}
+.btn{
+  font-size: 18px;
+  @extend %lato-400;
+  color: $accent;
+  border-radius: 6px;
+  border: 1px solid $accent;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}

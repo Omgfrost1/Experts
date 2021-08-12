@@ -153,18 +153,15 @@
   &__cart {
     margin-right: 17px;
   }
-  &__link-img {
-    height: 32px;
-    width: 32px;
-  }
+
   &__num {
     position: absolute;
     width: 18px;
     height: 18px;
     border-radius: 50%;
     background-color: $title;
-    top: -5px;
-    left: -5px;
+    top: -25px;
+    left: -6px;
     font-size: 10px;
     color: $red;
     text-align: center;
@@ -369,8 +366,8 @@
     max-width: 205px;
   }
   &__list-item,
-  &__social-item{
-    :hover{
+  &__social-item {
+    :hover {
       border-bottom: 1px solid $accent;
     }
   }
@@ -439,6 +436,184 @@
   &__accept-item + .footer-bottom__accept-item {
     padding-left: 25px;
   }
+}
+.products {
+  padding: 72px 0 70px;
+  align-items: center;
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 30px;
+    padding-bottom: 48px;
+  }
+}
+.products-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.products-item {
+  max-width: 300px;
+  max-height: 410px;
+  height: 100%;
+  border: 1px solid rgba(17, 17, 17, 0.2);
+  border-radius: 6px;
+  padding: 55px 0px 18px;
+  position: relative;
+  z-index: 10;
+  &__link {
+    position: absolute;
+    right: 18px;
+    padding-bottom: 5px;
+  }
+  &__link--heart {
+    top: 18px;
+    z-index: 2;
+    :hover{
+      path{
+        fill: $red;
+      }
+    }
+  }
+  &__link--cart {
+    bottom: 18px;
+    :hover{
+      rect{
+        fill: #ff7a00;
+      }
+      path{
+        fill: $accent;
+      }
+    }
+  }
+  &__text {
+    display: block;
+    padding: 235px 18px 0 18px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      width: 300px;
+      height: 225px;
+      position: absolute;
+      top: 0;
+      right:-15px;
+    }
+  }
+  &__text--pineapple {
+    &::before {
+      content: url("../images/products/pineapple.jpg");
+    }
+  }
+   &__text--lemon {
+    &::before {
+      content: url("../images/products/lemon.jpg");
+    }
+  }
+  &__text--pitahaya{
+    &::before {
+      content: url("../images/products/pitahaya.jpg");
+    }
+  }
+  &__text--pepper{
+    &::before {
+      content: url("../images/products/pepper.jpg");
+      right: -25px;
+    }
+  }
+   &__text--carrot{
+    &::before {
+      content: url("../images/products/carrot.jpg");
+      right: -10px;
+    }
+  }
+  &__text--juice{
+    &::before {
+      content: url("../images/products/juice.jpg");
+    }
+  }
+   &__text--coffee{
+    &::before {
+      content: url("../images/products/coffee.jpg");
+      right: -15px;
+    }
+  }
+  &__text--ketchup{
+    &::before {
+      content: url("../images/products/ketchup.jpg");
+      right: -10px;
+    }
+  }
+
+  &__price {
+    @extend %lato-600;
+    padding-left: 18px;
+  }
+  &__new-price {
+    color: $silver;
+    position: absolute;
+    bottom: 18px;
+  }
+  &__old-price {
+    color: $silver;
+    color: #c1c1c1;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 37px;
+  }
+    &--new {
+    &::after {
+      content: "НОВИНКА";
+      @extend %lato-700;
+      font-size: 10px;
+      line-height: 1;
+      color: #fff;
+      background-color: $accent;
+      border-radius: 6px;
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      padding: 4px 6px 3px 6px;
+    }
+  }
+  &--sale-30,
+  &--sale-50,
+  &--new, 
+  &--hit{
+    &::before{
+    font-size: 10px;
+    line-height: 1;
+    @extend %lato-700;
+    color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 4px 6px 3px 6px;
+    background-color: #cf3e3b;
+  }
+}
+  &--sale-30 {
+    &::before {
+      content: "-30%";
+    }
+  }
+  &--sale-50 {
+    &::before {
+      content: "-50%";
+      top: 34px;
+    }
+  }
+  &--hit{
+    &::before {
+      content: "ХИТ";
+      background-color: #ff7a00;
+    }
+  }
+ 
+}
+.mixitup-control-active {
+  border-bottom: 3px solid #e0edcf;
 }
 
 @import "media";
