@@ -29,22 +29,11 @@
 } 
 
 @font-face {
-  font-family: 'Signika-SemiBold', sans-serif;
-  font-weight: 600;
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: 900;
   font-style: normal;
-  src: local('Signika-SemiBold'),
-      url('../fonts/Signika-SemiBold.woff2') format('woff2'),
-      url('../fonts/Signika-SemiBold.woff') format('woff');
+  src: local('Lato-Black'),
+      url('../fonts/Lato-Black.woff2') format('woff2'),
+      url('../fonts/Lato-Black.woff') format('woff');
   font-display: swap;  
 } 
-
-@font-face {
-  font-family: 'Signika-Bold', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  src: local('Signika-Bold'),
-      url('../fonts/Signika-Bold.woff2') format('woff2'),
-      url('../fonts/Signika-Bold.woff') format('woff');
-  font-display: swap;  
-} 
-

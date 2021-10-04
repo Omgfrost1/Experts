@@ -2,15 +2,12 @@ html, body{
   height: 100%;
 
 }
-
 body{
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.4;
-  color: $default;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  @extend %lato-600;
+  background-color: $white;
+  @extend %lato-400;
 }
 .main{
   flex-grow: 1;
@@ -21,35 +18,75 @@ body{
   margin: 0 auto;
   padding: 0 10px;
 }
-.title{
+.title__white{
   text-align: center;
-  @extend %signika-600;
-  font-size: 32px;
-  line-height: 1.4;
-  color: $default;
-  margin-bottom: 30px;
-}
-.list__link{
-  @extend %lato-700;
-  font-size: 15px;
-  line-height: 1.4;
-  color: $silver;
-  cursor: pointer;
-  &:hover{
-    border-bottom: 3px solid #e0edcf;
-  }
-}
-.list__item + .list__item{
-  margin-left: 24px;
-}
-.btn{
-  font-size: 18px;
-  @extend %lato-400;
-  color: $accent;
-  border-radius: 6px;
-  border: 1px solid $accent;
-  padding: 12px 24px;
-  cursor: pointer;
-  margin: 0 auto;
-  display: block;
-}
+  @extend %lato-900;
+  font-size: 35px;
+  line-height: 20px;
+  color: $white;
+  margin-bottom: 28px;
+ }
+ .title__black{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $color33;
+    @extend %lato-900;
+    position: relative;
+    margin-bottom: 45px;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 3px;
+      width: 60px;
+      bottom: -20px;
+      left: 0;
+      background-color: $blue;
+    }
+ }
+ .btn{
+   margin: 0 auto;
+    display: block;
+    color: $white;
+    font-size: 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    @extend %lato-700;
+    background-color: $orange;
+    cursor: pointer;
+ }
+ .connect__btn{
+   text-align: center;
+    color: $white;
+    background-color: $orange;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: url("../images/expert/tel.png");
+      top: 13px;
+      left: 20px;
+    }
+ }
+// .list__link{
+//   @extend %lato-700;
+//   font-size: 15px;
+//   line-height: 1.4;
+//   color: $silver;
+//   cursor: pointer;
+//   &:hover{
+//     border-bottom: 3px solid #e0edcf;
+//   }
+// }
+// .list__item + .list__item{
+//   margin-left: 24px;
+// }
+// .btn{
+//   font-size: 18px;
+//   @extend %lato-400;
+//   color: $accent;
+//   border-radius: 6px;
+//   border: 1px solid $accent;
+//   padding: 12px 24px;
+//   cursor: pointer;
+//   margin: 0 auto;
+//   display: block;
+// }

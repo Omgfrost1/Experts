@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 58" width="37" height="58">
+	<title>:: Our Services</title>
+	<defs>
+		<image width="513" height="513" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0naXNvLTg4NTktMSc/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyLjAwMiA1MTIuMDAyIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyLjAwMiA1MTIuMDAyIj4KICA8cGF0aCBkPSJtNDExLjk5MiwyMDguNDg2Yy01LjY0MS0xMC4xNzItMTYuMzU5LTE2LjQ4NS0yNy45OTItMTYuNDg1aC03Ny4yMTlsMTMuMTA5LTE1Ny4zNDNjMS4yMTEtMTQuNTQ3LTcuNTctMjguMDYyLTIxLjM1Mi0zMi44NzUtMTMuNzY2LTQuNzk3LTI5LjA3LDAuMzI4LTM3LjE2NCwxMi40NjlsLTE2MCwyNDBjLTYuNTQ3LDkuODItNy4xNTYsMjIuNDQ1LTEuNTg2LDMyLjg1MSA1LjU2MywxMC40MDYgMTYuNDA2LDE2Ljg5OCAyOC4yMTEsMTYuODk4aDc3LjQ0NWwtMTMuMzUyLDE3My41NDdjLTEuMTMzLDE0LjY4OCA3LjkxNCwyOC4yNSAyMS45MTQsMzIuODUyIDMuMjg5LDEuMDg2IDYuNjY0LDEuNjAyIDkuOTkyLDEuNjAyIDEwLjc5NywwIDIxLjE2NC01LjQ5MiAyNy4xMzMtMTUuMDM5bDE2MC0yNTZjNi4xNzQtOS44NjggNi40OTQtMjIuMjk4IDAuODYxLTMyLjQ3N3oiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":: Our Services">
+		<g id="Item 2">
+			<use id="light-bolt" href="#img1" transform="matrix(0.115,0,0,0.113,0,0)"/>
+		</g>
+	</g>
+</svg>

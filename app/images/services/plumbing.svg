@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 52" width="79" height="52">
+	<title>:: Our Services</title>
+	<defs>
+		<image width="512" height="512" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0naXNvLTg4NTktMSc/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiPgogIDxnPgogICAgPHBhdGggZD0ibTMzNiwyMDBoLTQ4di00OGgzMmMxNy42NzIsMCAzMi0xNC4zMjggMzItMzJzLTE0LjMyOC0zMi0zMi0zMmgtMTI4Yy0xNy42NzIsMC0zMiwxNC4zMjgtMzIsMzJzMTQuMzI4LDMyIDMyLDMyaDMydjQ4aC00OGMtMTcuNjcyLDAtMzIsMTMuODI4LTMyLDMxLjV2MTYwYzAsMTcuNjcyIDE0LjMyOCwzMi41IDMyLDMyLjVoMTYwYzE3LjY3MiwwIDMyLTE0LjgyOCAzMi0zMi41di0xNjBjMC0xNy42NzItMTQuMzI4LTMxLjUtMzItMzEuNXoiLz4KICAgIDxwYXRoIGQ9Im00ODAsMjE1Ljc1Yy0xNy42NzIsMC0zMiwxNC4yNS0zMiwzMi4yNWgtNDh2MTI4aDQ4YzAsMTcgMTQuMzI4LDMxLjc1IDMyLDMxLjc1czMyLTE0LjU3OCAzMi0zMi4yNXYtMzItNjQtMzJjMC0xNy42NzItMTQuMzI4LTMxLjc1LTMyLTMxLjc1eiIvPgogICAgPHBhdGggZD0ibTMyLDIxNS43NWMtMTcuNjcyLDAtMzIsMTQuMDc4LTMyLDMxLjc1djMyIDY0IDMyYzAsMTcuNjcyIDE0LjMyOCwzMi4yNSAzMiwzMi4yNXMzMi0xNC43NSAzMi0zMS43NWg0OHYtMTI4aC00OGMwLTE4LTE0LjMyOC0zMi4yNS0zMi0zMi4yNXoiLz4KICA8L2c+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":: Our Services">
+		<g id="Item 3">
+			<use id="pipe" href="#img1" transform="matrix(0.154,0,0,0.154,0,0)"/>
+		</g>
+	</g>
+</svg>

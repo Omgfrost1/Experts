@@ -1,9 +1,12 @@
-$accent: #63a60e;
-$default: #121212;
-$title: #fff;
-$header-top: #31352B;
-$silver: #505050;
-$red: #CF3E3B;
+$ccc: #cccccc;
+$color39: #393939;
+$color66: #666666;
+$color33: #333333;
+$colorf2: #f2f2f2;
+$color99: #999999;
+$orange: #ffb619;
+$white: #fff;
+$blue: #1c3e9b;
 
 
 %lato-400{
@@ -21,12 +24,7 @@ $red: #CF3E3B;
   font-weight: 700;
 }
 
-%signika-600{
-  font-family: 'Signika-SemiBold', sans-serif;
-  font-weight: 600;
-}
-
-%signika-700{
-  font-family: 'Signika-Bold', sans-serif;
-  font-weight: 700;
+%lato-900{
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: 900;
 }

@@ -1,24 +1,23 @@
 $(function () {
 
-  $('.header-slider').slick({
+  $('.services__slider').slick({
     dots: false,
-    fade: true,
-    infinite: true,
+    arrows: true,
     autoplay: true,
     autoplaySpeed: 3500,
-    prevArrow: '<button type = "button" class= "header-slider__slick-prev"><img src="images/arrow-left.svg" alt="left arrow"> </button>',
-    nextArrow: '<button type = "button" class= "header-slider__slick-next"><img src="images/arrow-right.svg" alt="right arrow"> </button>',
+    prevArrow: '<button type = "button" class= "services__prev"><img src="images/services/arrow_left.png" alt="left arrow"> </button>',
+    nextArrow: '<button type = "button" class= "services__next"><img src="images/services/arrow_right.png" alt="right arrow"> </button>',
     responsive: [
       {
-        breakpoint: 1450,
+        breakpoint: 1000,
         settings: {
           arrows: false
         }
-      },
+      }
     ]
   });
 
-  var mixer = mixitup('.products__items');
+  var mixer = mixitup('.projects__content');
 
 
 });
